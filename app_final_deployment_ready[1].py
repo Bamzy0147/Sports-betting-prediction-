@@ -406,6 +406,7 @@ BALLDONTLIE_API_KEY = "f42accd7-ae8c-49aa-95c3-76b4999d1c81"
 - **Live:** fixture/game schedule rows
 - **Demo:** pick, confidence, and model edge columns
 - **Next step:** replace `demo_pick_for_football()` and `demo_pick_for_basketball()` with your actual model
+        """
     )
 
     st.subheader("Optional odds integration")

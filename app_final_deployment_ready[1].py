@@ -391,12 +391,12 @@ with tab3:
     st.subheader("Secrets / Environment Variables")
     st.code(
         """# Streamlit Cloud secrets.toml
-FOOTBALL_DATA_API_KEY = "your_football_data_key"
-BALLDONTLIE_API_KEY = "your_balldontlie_key"
+FOOTBALL_DATA_API_KEY = "fc37aacb08e245c28c4e6658244fbfe9"
+BALLDONTLIE_API_KEY = "f42accd7-ae8c-49aa-95c3-76b4999d1c81"
 
 # or local shell environment variables
-# export FOOTBALL_DATA_API_KEY="your_football_data_key"
-# export BALLDONTLIE_API_KEY="your_balldontlie_key""",
+# export FOOTBALL_DATA_API_KEY="fc37aacb08e245c28c4e6658244fbfe9"
+# export BALLDONTLIE_API_KEY="f42accd7-ae8c-49aa-95c3-76b4999d1c81",
         language="toml",
     )
 
